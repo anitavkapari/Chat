@@ -28,6 +28,9 @@ import {
 import User from '../User';
 
 export default class LoginScreen extends React.Component {
+  static navigationOptions = {
+    header:null
+  }
   constructor(props) {
     super(props);
 	this.state={
@@ -45,8 +48,8 @@ AsyncStorage.getItem('userPhone').then(val=>{
   }
 })
   }*/
-	submitForm = async () =>{
-    if(this.state.phone.length < 10){
+	submitForm = async () => {
+   if(this.state.phone.length < 9){
       alert('Error','Wrong Phone Number')
     }else if(this.state.name.length < 3){
     alert('Error','Wrong name')
