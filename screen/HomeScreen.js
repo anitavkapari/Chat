@@ -8,10 +8,14 @@ import {
     TouchableOpacity,
     StatusBar,
   } from 'react-native';
+ // import User from '../User';
+
   export default class HomeScreen extends React.Component{
-      render(){
+      
+    render(){
           return(
 <View>
+    <Text>Logout</Text>
     
 </View>
           )

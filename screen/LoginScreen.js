@@ -59,7 +59,6 @@ this.props.navigation.navigate['Test'];
 	}
 	render(){
   return (
-    <Fragment>
 
       <View style={styles.body}>
               <TextInput 
@@ -80,7 +79,6 @@ this.props.navigation.navigate['Test'];
 			  </TouchableOpacity>
 			            </View>
 
-    </Fragment>
   );
 }
 };
